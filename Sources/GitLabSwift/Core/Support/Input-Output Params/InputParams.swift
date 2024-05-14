@@ -552,5 +552,11 @@ public extension InputParams {
         case new, old
         public var encodedValue: String { rawValue }
     }
-    
+
+    enum MergeRequestScope: String, URLEncodable {
+        case created_by_me
+        case assigned_to_me
+        case all
+        public var encodedValue: String { rawValue }
+    }
 }

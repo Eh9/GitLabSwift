@@ -129,6 +129,8 @@ public extension GLModel {
         public let username: String
         public let email: String?
         public let state: State?
+        public let avatar_url: String?
+        public let web_url: String?
         
         public var description: String {
             "ID \(id) - \(username) (\(name))"
