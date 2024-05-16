@@ -140,7 +140,7 @@ public extension GLModel {
     
     struct Project: Codable {
         public let id: Int
-        public let description: String
+        public let description: String?
         public let name: String
         public let created_at: Date?
         public let default_branch: String?
@@ -414,6 +414,7 @@ public extension GLModel {
         public let web_url: URL
         public let time_stats: TimeStats?
         public let reviewers: [GLModel.User]?
+        public let has_conflicts: Bool?
     }
     
     struct MergeRequestApprovals: Codable {
