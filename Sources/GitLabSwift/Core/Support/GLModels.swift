@@ -390,6 +390,10 @@ public extension GLModel {
         public let state: String
         public let created_at: Date?
         public let updated_at: Date?
+        public let merged_by: User?
+        public let merged_at: Date?
+        public let closed_by: User?
+        public let closed_at: Date?
         public let target_branch: String?
         public let source_branch: String?
         public let upvotes: Int
