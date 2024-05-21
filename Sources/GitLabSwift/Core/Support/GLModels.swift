@@ -298,7 +298,7 @@ public extension GLModel {
     struct Group: Codable {
         public let id: Int
         public let name: String?
-        public let avatar_url: URL?
+        public let avatar_url: String?
         public let web_url: URL?
         public let full_name: String?
         public let full_path: String?
