@@ -403,6 +403,7 @@ public extension GLModel {
         public let source_project_id: Int?
         public let target_project_id: Int?
         public let labels: [String]?
+        public let draft: Bool?
         public let work_in_progress: Bool?
         public let milestone: GLModel.Milestone?
         public let squash_commit_sha: String?
