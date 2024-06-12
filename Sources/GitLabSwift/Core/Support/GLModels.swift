@@ -377,6 +377,7 @@ public extension GLModel {
             public let confidential: Bool
             public let `internal`: Bool
             public let resolvable: Bool
+            public let resolved: Bool?
             public let noteable_iid: Int?
         }
     }
